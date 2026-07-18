@@ -54,7 +54,7 @@ def build_crew(data: dict) -> Crew:
             "below its reorder_point."
         ),
         llm=llm,
-        verbose=True,
+        verbose=False,
         allow_delegation=False,
     )
 
@@ -66,7 +66,7 @@ def build_crew(data: dict) -> Crew:
             "supplier reliability_score and avg_lead_time_days."
         ),
         llm=llm,
-        verbose=True,
+        verbose=False,
         allow_delegation=False,
     )
 
@@ -78,7 +78,7 @@ def build_crew(data: dict) -> Crew:
             "marked delayed, and produce risk warnings."
         ),
         llm=llm,
-        verbose=True,
+        verbose=False,
         allow_delegation=False,
     )
 
@@ -90,7 +90,7 @@ def build_crew(data: dict) -> Crew:
             "concrete next steps for the operations team."
         ),
         llm=llm,
-        verbose=True,
+        verbose=False,
         allow_delegation=False,
     )
 
