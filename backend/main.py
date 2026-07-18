@@ -7,7 +7,7 @@ app = FastAPI(title="Supply Chain Agents API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # tighten this to your real frontend URL after deploy
+    allow_origins=["https://supply-chain-agents-three.vercel.app"], 
     allow_methods=["*"],
     allow_headers=["*"],
 )
