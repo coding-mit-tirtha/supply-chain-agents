@@ -1,0 +1,13 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+dist/
+.env
+backend/.env
+frontend/.env
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
